@@ -1,11 +1,33 @@
+/* Banner Section */
+
 .header {
+    width: 1920px;
+    height: 850px;
     display: flex;
+    background-color: #E554731A;
+
+}
+
+.banner {
+    margin: 190px 360px 970px 240px;
 }
 
 .banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+}
+
+.banner-description {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30PX;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
 }
 
 .primary-btn {
@@ -16,3 +38,5 @@
     align-items: flex-start;
     gap: 10px;
 }
+
+/* our feature flower */
