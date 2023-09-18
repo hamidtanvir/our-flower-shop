@@ -72,11 +72,13 @@
     background: #A7216226;
     padding: 50px;
 }
+
 .flower-item2 {
     border-radius: 300px 300px 0px 0px;
     background: #0597A026;
     padding: 50px;
 }
+
 .flower-item3 {
     border-radius: 300px 300px 0px 0px;
     background: #477D1126;
@@ -86,7 +88,28 @@
 
 /* hot deal */
 
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
     justify-content: center;
+    background-color: #E554730D;
+    margin-top: 50px;
 }
+
+.hot-deal-header {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+}
+
+.hot-deal-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+    
