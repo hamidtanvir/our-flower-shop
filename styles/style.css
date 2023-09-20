@@ -114,7 +114,7 @@
 }
 
 /* Instagram Section */
-.instagram{
+.instagram {
     justify-content: center;
 }
 
@@ -138,4 +138,38 @@
     text-align: center;
     gap: 24px;
     margin-top: 48px;
+}
+
+/* Get The Latest Deals section */
+
+.deal-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.get-deal {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.deal-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deal-input {
+    width: 700px;
+    height: 64px;
 }
